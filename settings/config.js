@@ -1,8 +1,8 @@
 module.exports = {
   TOKEN:
     process.env.TOKEN ||
-    "BOT_TOKEN",
-  PREFIX: process.env.PREFIX || "BOT_PREFIX",
+    "OTA0MDc1MTA5MDk3MTY0ODky.GROhJe.xnu0SLcN6Edr0vkbNXTWTn-s_xQ7WcLczkoVWU",
+  PREFIX: process.env.PREFIX || "!",
   embed: {
     color: process.env.color || "#220f80",
     wrongcolor: process.env.wrongcolor || "#8a0808",
@@ -21,8 +21,8 @@ module.exports = {
     bot: "🤖",
   },
   // others
-  guildID: process.env.guildID || "GUILD_ID", // for slash command
-  mongodb : process.env.mongodb || "MONGO_URL",
+  guildID: process.env.guildID || "904841137913753691", // for slash command
+  mongodb : process.env.mongodb || "mongodb+srv://Anuwa:Anuwa@cluster0.vwr9kzq.mongodb.net/?retryWrites=true&w=majority",
   filters: {
     clear: "dynaudnorm=f=200",
     lightbass: "bass=g=8,dynaudnorm=f=200",
